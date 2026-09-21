@@ -1,6 +1,6 @@
 from src.event_topic import EventTopic
 
-
+# added the path fix
 class EventProducer:
     """Publishes anomaly events to an in-memory topic."""
 
