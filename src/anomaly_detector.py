@@ -22,7 +22,7 @@ class AnomalyDetector:
 
         if record["memory_percent"] > self.memory_threshold:
             reasons.append("High memory utilization")
-
+#fix the log level check
         if record.get("log_level") == "ERROR":
             reasons.append("Error log detected")
 
