@@ -72,5 +72,5 @@ def test_consumer_receives_event():
     producer.publish(event)
 
     messages = consumer.consume()
-
+#fix this
     assert len(messages) == 1
