@@ -167,3 +167,4 @@ The key verification command used was:
 cd /workspaces/github-skills-challenge && pytest --cov=src --verbose
 
 It completed successfully with `8 passed`.
+#fix the path and log_level error.
